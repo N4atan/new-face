@@ -1,3 +1,4 @@
+import {  MapPin } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
@@ -12,19 +13,18 @@ export default function Home() {
                         className="w-full max-w-xl lg:max-w-2xl rounded-lg shadow-xl"
                     />
                     <div className="max-w-md lg:max-w-lg">
-                        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">Box Office News!</h1>
+                        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight up">Transforme sua casa com um <span className="text-primary">Acabamento Perfeito</span></h1>
                         <p className="py-6 text-base md:text-lg opacity-80">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi. In deleniti eaque aut repudiandae et a id nisi.
+                            Especialistas em instalação de pisos laminados e vinílicos. Você escolhe e compra o material onde preferir, e nós garantimos uma instalação <span className="font-bold">impecável, limpa e duradoura.</span> Tradição de pai para filho.
                         </p>
-                        <button className="btn btn-primary">Get Started</button>
+                        <button className="btn btn-primary btn-lg">Solicitar Orçamento no WhatsApp</button>
                     </div>
                 </div>
             </section>
 
             {/* gallery */}
             <section className="p-4 sm:p-8 py-12 md:py-24">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center pt-4 pb-12">Box Office News!</h1>
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center pt-4 pb-12">Nosso Portfólio de <span className="text-primary">Transformações</span></h1>
 
                 <div className="grid grid-cols-1 md:grid-cols-5 gap-6 max-w-5xl mx-auto py-4 px-4">
                     <div className="card bg-base-100 md:col-span-3 shadow-sm">
@@ -60,11 +60,11 @@ export default function Home() {
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title">Card Title</h2>
-                            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-primary">Buy Now</button>
+                            <h2 className="card-title">Local Name</h2>
+                            <div className="card-actions w-full">
+                                <p className="flex items-center gap-2"><MapPin className="size-4 text-accent-content" />City, State - Country | dd/mm/yyyy</p>
                             </div>
+
                         </div>
                     </div>
 
@@ -101,16 +101,16 @@ export default function Home() {
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title">Card Title</h2>
-                            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-primary">Buy Now</button>
+                            <h2 className="card-title">Local Name</h2>
+                            <div className="card-actions w-full">
+                                <p className="flex items-center gap-2"><MapPin className="size-4 text-accent-content" />City, State - Country | dd/mm/yyyy</p>
                             </div>
+
                         </div>
                     </div>
 
                     <div className="card bg-base-100 md:col-span-2 shadow-sm">
-                        <figure className="hover-gallery w-full">
+                       <figure className="hover-gallery w-full">
                             <img
                                 src="https://placehold.co/600x400?text=Image1"
                                 alt="Shoes"
@@ -142,11 +142,11 @@ export default function Home() {
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title">Card Title</h2>
-                            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-primary">Buy Now</button>
+                            <h2 className="card-title">Local Name</h2>
+                            <div className="card-actions w-full">
+                                <p className="flex items-center gap-2"><MapPin className="size-4 text-accent-content" />City, State - Country | dd/mm/yyyy</p>
                             </div>
+
                         </div>
                     </div>
 
@@ -183,11 +183,11 @@ export default function Home() {
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title">Card Title</h2>
-                            <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                            <div className="card-actions justify-end">
-                                <button className="btn btn-primary">Buy Now</button>
+                            <h2 className="card-title">Local Name</h2>
+                            <div className="card-actions w-full">
+                                <p className="flex items-center gap-2"><MapPin className="size-4 text-accent-content" />City, State - Country | dd/mm/yyyy</p>
                             </div>
+
                         </div>
                     </div>
 
@@ -199,34 +199,33 @@ export default function Home() {
             <section className="hero min-h-fit md:min-h-screen p-4 sm:p-8 py-12 md:py-24">
                 <div className="hero-content flex-col lg:flex-row-reverse gap-8 max-w-6xl mx-auto">
                     <div className="w-full">
-                        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">Box Office News!</h1>
+                        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">Tradição e Cuidado em <span className="text-primary">Cada Detalhe</span></h1>
                         <p className="py-6 text-base md:text-lg opacity-80">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi. In deleniti eaque aut repudiandae et a id nisi.
+                            Somos uma equipe familiar focada 100% na qualidade do serviço.
                         </p>
 
                         <div className="w-full flex flex-col gap-4">
                             <div className="card md:card-side bg-base-100 shadow-sm border border-base-200">
                                 <div className="bg-base-200 w-full h-16 md:w-24 md:h-auto shrink-0"></div>
                                 <div className="card-body p-4 sm:p-6">
-                                    <h2 className="card-title text-base sm:text-lg">New movie is released!</h2>
-                                    <p className="text-sm">Click the button to watch on Jetflix app.</p>
+                                    <h2 className="card-title text-base sm:text-lg">Foco total na Mão de Obra</h2>
+                                    <p className="text-sm">Não vendemos piso. Nosso único objetivo é entregar a melhor instalação para o material que você escolheu, sem tentar "empurrar" vendas.</p>
                                 </div>
                             </div>
 
                             <div className="card md:card-side bg-base-100 shadow-sm border border-base-200">
                                 <div className="bg-base-200 w-full h-16 md:w-24 md:h-auto shrink-0"></div>
                                 <div className="card-body p-4 sm:p-6">
-                                    <h2 className="card-title text-base sm:text-lg">New movie is released!</h2>
-                                    <p className="text-sm">Click the button to watch on Jetflix app.</p>
+                                    <h2 className="card-title text-base sm:text-lg">Limpeza e Organização</h2>
+                                    <p className="text-sm">Tratamos a sua casa como se fosse a nossa. Trabalhamos com agilidade e finalizamos o serviço sem deixar dor de cabeça ou sujeira para trás.</p>
                                 </div>
                             </div>
 
                             <div className="card md:card-side bg-base-100 shadow-sm border border-base-200">
                                 <div className="bg-base-200 w-full h-16 md:w-24 md:h-auto shrink-0"></div>
                                 <div className="card-body p-4 sm:p-6">
-                                    <h2 className="card-title text-base sm:text-lg">New movie is released!</h2>
-                                    <p className="text-sm">Click the button to watch on Jetflix app.</p>
+                                    <h2 className="card-title text-base sm:text-lg">Acabamento Premium</h2>
+                                    <p className="text-sm">Anos de experiência no mercado garantindo recortes precisos nas portas e rodapés perfeitamente alinhados.</p>
                                 </div>
                             </div>
                         </div>
