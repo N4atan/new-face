@@ -25,11 +25,11 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased scroll-smooth scroll-pt-20`}
     >
       <body className="min-h-full flex flex-col">
 
-        <header className="navbar bg-base-100 shadow-sm">
+        <header className="navbar bg-base-100/60 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-base-200/50 transition-all">
           <div className="navbar-start">
             <div className="dropdown">
               <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -38,36 +38,21 @@ export default function RootLayout({
               <ul
                 tabIndex={-1}
                 className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                <li><a>Item 1</a></li>
-                <li>
-                  <a>Parent</a>
-                  <ul className="p-2">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
-                  </ul>
-                </li>
-                <li><a>Item 3</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicos">Nossos Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
               </ul>
             </div>
-            <a className="btn btn-ghost text-xl">daisyUI</a>
+            <a href="#home" className="btn btn-ghost text-xl font-bold tracking-tight">New Face</a>
           </div>
-          <div className="navbar-center hidden lg:flex">
+          <div className="navbar-end hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
-              <li><a>Item 1</a></li>
-              <li>
-                <details>
-                  <summary>Parent</summary>
-                  <ul className="p-2 bg-base-100 w-40 z-1">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
-                  </ul>
-                </details>
-              </li>
-              <li><a>Item 3</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#servicos">Nossos Serviços</a></li>
+              <li><a href="#portfolio">Portfólio</a></li>
+              <li><a href="#contato">Contato</a></li>
             </ul>
-          </div>
-          <div className="navbar-end">
-            <a className="btn">Button</a>
           </div>
         </header>
 
