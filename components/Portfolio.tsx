@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Portfolio() {
   return (
-    <section id="portfolio" className="px-4 sm:px-8 py-6 md:py-10 bg-base-100">
+    <section id="portfolio" className="px-4 sm:px-8 py-6 md:py-10 bg-base-200/70">
       <h1 className="text-5xl font-extrabold tracking-tight text-center pt-2 pb-4 text-base-content">
         Nosso Portfólio de <span className="text-primary">Transformações</span>
       </h1>

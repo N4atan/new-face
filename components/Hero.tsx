@@ -15,7 +15,7 @@ export default function Hero() {
 
       <div className="hero-content text-primary-content text-center">
         <div className="flex flex-col gap-5 max-w-xl">
-          <h1 className="font-title text-3xl sm:text-4xl md:text-5xl font-extrabold">O Conforto que sua Casa Merece: <span className="">Consultoria e Instalação de Elite</span></h1>
+          <h1 className="font-title text-5xl md:text-5xl font-extrabold uppercase leading-[4rem]">O Conforto que sua Casa Merece: <span className="">Consultoria e Instalação de Elite</span></h1>
           <p className="text-xl ">
             Especialistas em laminados e vinílicos com orientação técnica imparcial para garantir o melhor piso para seu projeto.
           </p>
@@ -36,7 +36,7 @@ export default function Hero() {
             </button>
             </div>
 
-            <button className="btn btn-soft  btn-md lg:btn-lg ">Ver Portfólio</button>
+            <a href="#portfolio" className="btn btn-soft  btn-md lg:btn-lg ">Ver Portfólio</a>
           </div>
         </div>
       </div>

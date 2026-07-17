@@ -3,7 +3,7 @@ import React from "react";
 export default function CTA() {
   return (
     <section id="contato" className="hero py-6 md:py-8 px-4 bg-base-100">
-      <div className="hero-content flex-col lg:flex-row-reverse max-w-6xl shadow-md rounded-2xl p-6 sm:p-10 gap-8">
+      <div className="hero-content flex-col lg:flex-row-reverse max-w-6xl  rounded-2xl p-6 sm:p-10 gap-8">
 
         <figure className="diff aspect-1/1 rounded-2xl" tabIndex={0}>
           <div className="diff-item-1" role="img" tabIndex={0}>
@@ -20,8 +20,16 @@ export default function CTA() {
 
 
         <div className="w-full text-left">
-          <h1 className="text-4xl   font-extrabold tracking-tight leading-tight text-base-content">
-            Não perca a oportunidade de transformar a sua casa.
+          <h1 className="text-4xl lg:text-5xl   font-extrabold tracking-tight leading-tight text-base-content uppercase">
+            Não perca a oportunidade de 
+            <span className="text-rotate px-1.5 md:px-2 text-primary">
+              <span>
+                <span>transformar</span>
+                <span>modernizar</span>
+                <span>revitalizar</span>
+              </span>
+            </span>
+              a sua casa!
           </h1>
           <p className="py-6 text-base text-lg text-base-content/85 leading-relaxed font-normal">
 

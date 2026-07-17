@@ -13,7 +13,7 @@ export default function Services() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto py-6 px-4 items-stretch">
         {/* Card 1 */}
-        <div className="card bg-base-100 shadow-sm hover:shadow-primary duration-300 transition-all hover:-translate-y-1 border border-base-200 flex flex-col h-full">
+        <div className="card bg-base-100 hover:shadow-sm  duration-300 transition-all hover:-translate-y-1  flex flex-col h-full">
           <figure className="px-6 pt-6">
             <img
               src="/assets/piso_laminado.png"
@@ -34,7 +34,7 @@ export default function Services() {
         </div>
 
         {/* Card 2 */}
-        <div className="card bg-base-100 shadow-sm hover:shadow-primary duration-300 transition-all hover:-translate-y-1 border border-base-200 flex flex-col h-full">
+        <div className="card bg-base-100 hover:shadow-sm  duration-300 transition-all hover:-translate-y-1  flex flex-col h-full">
           <figure className="px-6 pt-6">
             <img
               src="/assets/piso_vinilico.png"
@@ -55,7 +55,7 @@ export default function Services() {
         </div>
 
         {/* Card 3 */}
-        <div className="card bg-base-100 shadow-sm hover:shadow-primary duration-300 transition-all hover:-translate-y-1 border border-base-200 flex flex-col h-full">
+        <div className="card bg-base-100 hover:shadow-sm  duration-300 transition-all hover:-translate-y-1  flex flex-col h-full">
           <figure className="px-6 pt-6">
             <img
               src="/assets/catalogo_pisos.png"
